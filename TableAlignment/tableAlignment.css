@@ -1,0 +1,66 @@
+﻿body {
+}
+.table {
+    display: table;
+    width: 100%;
+}
+
+.title {
+    display: table-caption;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.heading {
+    display: table-row;
+    font-weight: bold;
+    text-align: center;
+}
+
+.row {
+    display: table-row;
+}
+
+.menuCell {
+    display: table-cell;
+    border: solid;
+    border-width: thin;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 20%;
+    background-color: greenyellow;
+    min-width:150px;
+}
+
+.contentCell {
+    display: table-cell;
+    border: solid;
+    border-width: thin;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    width: 80%;
+    background-color: aqua;
+}
+
+.buttonCell1 {
+    display: table-cell;
+    border: none;
+    padding-top: 40px;
+    column-span: all;
+    width: 20%;
+    background-color: none;
+    align-content: center;
+}
+
+.buttonCell2 {
+    display: table-cell;
+    border: none;
+    padding-top: 40px;
+    column-span: all;
+    width: 80%;
+    background-color: none;
+    align-content: center;
+}
